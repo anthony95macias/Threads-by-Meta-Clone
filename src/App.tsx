@@ -1,11 +1,18 @@
-import './App.css'
+import Nav from './components/Nav';
+import Header from './components/Header';
+import PopUp from './components/PopUp';
+import Feed from './components/Feed';
+import './App.css';
 
 const App =()=>  {
 
   return (
     <>
       <div className='app'>
-        <h1>Hello world</h1>
+        <Nav/>
+        <Header/>
+        <Feed />
+        <PopUp/>
       </div>
     </>
   )
