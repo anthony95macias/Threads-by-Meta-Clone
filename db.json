@@ -1,0 +1,102 @@
+{
+    "users": [
+        { 
+            "id": 0,
+            "user_uuid": "665c2c2f-9e1e-4ecd-9737-7854c1446348", 
+            "username": "Anthony Richard", 
+            "handle": "anthony94macias",
+            "bio": "Loving to code in typescript and python",
+            "link": "https://github.com/anthony95macias",
+            "img": "https://imgur.com/m2O0ykv",
+            "instagram_url": "https://www.instagram.com/the_kazekage_aries",
+            "followers": [
+                {
+                    "user_uuid": "071319af-c9f8-478c-a77e-7e26ca24a22b" 
+                },
+                {
+                    "user_uuid": "9bac79b0-c079-4098-a940-e4486cd1d8f0" 
+                }
+            ]
+        },
+        { 
+            "id": 1,
+            "user_uuid": "071319af-c9f8-478c-a77e-7e26ca24a22b", 
+            "username": "jayden macias", 
+            "handle": "jaydenlovesvespa",
+            "bio": "Luca is my favorite movie! cant wait to drive a vespa once i am old enough. ",
+            "link": "https://www.vespa.com/us_EN/",
+            "img": "https://imgur.com/kciEAP1",
+            "instagram_url": "https://www.instagram.com/theonlyvespa",
+            "followers": [
+                {
+                    "user_uuid":  "665c2c2f-9e1e-4ecd-9737-7854c1446348" 
+                }
+            ]
+        },
+        { 
+            "id": 2,
+            "user_uuid": "9bac79b0-c079-4098-a940-e4486cd1d8f0", 
+            "username": "jeremy macias", 
+            "handle": "jemjaay",
+            "bio": "Final fantasty 16 is currently my favorite choice out of all the final fantasy series.",
+            "link": "https://m.twitch.tv/jemjaay",
+            "img": "https://imgur.com/X9bmpfC",
+            "instagram_url": "https://www.instagram.com/jemylooh",
+            "followers": [
+                {
+                    "user_uuid":  "665c2c2f-9e1e-4ecd-9737-7854c1446348" 
+                },
+                {
+                    "user_uuid": "071319af-c9f8-478c-a77e-7e26ca24a22b"
+                }
+            ]
+        }
+        ],
+
+        "threads": [
+        { 
+            "id": 0, 
+            "timesamp": "Sun Nov 12 2023 15:48:25 GMT-0800 (Pacific Standard Time)", 
+            "thread_id": "665c2c2f-9e1e-4ecd-9737-7854c1446348", 
+            "thread_to": null,
+            "reply_to": null,
+            "text": "Hello world! (of first thread)",
+            "likes": [
+                    {
+                        "uuid": "071319af-c9f8-478c-a77e-7e26ca24a22b"              
+                    },
+                    {
+                        "uuid": "9bac79b0-c079-4098-a940-e4486cd1d8f0"
+                    }
+                ]
+        },
+        { 
+            "id": 1, 
+            "timesamp": "Sun Nov 12 2023 16:48:25 GMT-0800 (Pacific Standard Time)", 
+            "thread_id": "665c2c2f-9e1e-4ecd-9737-7854c1446348",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "One other awesome thread!",
+            "likes": []
+        },
+        { 
+            "id": 2, 
+            "timesamp": "Sun Nov 12 2023 17:48:25 GMT-0800 (Pacific Standard Time)", 
+            "thread_id": "9bac79b0-c079-4098-a940-e4486cd1d8f0", 
+            "thread_to": null,
+            "reply_to": null,
+            "text": "Currently streaming on twitch. Come watch me live on twitch!",
+            "likes": []
+        },
+        { 
+            "id": 3, 
+            "timesamp": "Sun Nov 12 2023 17:49:25 GMT-0800 (Pacific Standard Time)", 
+            "thread_id": "665c2c2f-9e1e-4ecd-9737-7854c1446348", 
+            "thread_to": "9bac79b0-c079-4098-a940-e4486cd1d8f0",
+            "reply_to": 2,
+            "text": "cant wait to support you live",
+            "likes": []
+        }
+    ]
+}
+    
