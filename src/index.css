@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.app {
+app {
   position: relative;
   height: 750px;
   width: 380px;
