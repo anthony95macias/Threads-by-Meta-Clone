@@ -47,6 +47,11 @@ a {
   color: rgb(114,114,114);
 }
 
+header .info-container{
+  display: flex;
+  justify-content: space-between;
+}
+
 header .img-container {
   width: 50px;
   height: 50px;
@@ -77,3 +82,16 @@ button.primary {
   width: 100%;
 }
 
+.button-container button {
+  border: none;
+  background-color: transparent;
+  padding: 7px;
+  color: rgb(250,250,250);
+  font-weight: bold;
+  width: 50%;
+  border-bottom: rgb(114,114,114) solid 1px;
+}
+
+.button-container button.current {
+  border-bottom: rgb(250,250,250) solid 2px; 
+}

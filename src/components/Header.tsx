@@ -24,7 +24,7 @@ const Header =()=>  {
           Share Profile
         </button>
         <div className="button-container">
-          <button>Threads</button>
+          <button className="current">Threads</button>
           <button>Replies</button>
         </div>
     </header>
