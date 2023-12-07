@@ -1,16 +1,16 @@
 
-const Thread =()=>  {
+const Thread =({user, filteredThread})=>  {
 
   return (
     <article className='feed-card'>
       <div className="text-container">
         <div>
           <div className="img-container">
-              <img src="" alt="profile avatar" />
+              <img src={user.img} alt="profile avatar" />
           </div>
             <div>
-              <p><strong>handle</strong></p>
-              <p>text</p>
+              <p><strong>{user.handle}</strong></p>
+              <p>{filteredThread.text}</p>
             </div>
         </div>
           <p className="sub-text">time</p>
